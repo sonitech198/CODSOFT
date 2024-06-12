@@ -182,8 +182,55 @@ button:nth-child(2):hover{
     font-size: 20px;
     margin: 2em 0 3em;
 }
+
+#skill-section{
+    width: 100%;
+    height: auto;
+    padding: 80px 13%;
+    font-size: 30px;
+    color: #fff;
+    background-color: #262525;
+    
+}
+.header-skill-head{
+    width: 100%;
+    margin-bottom: 70px;
+    display: grid;
+    color:white;
+    text-align: center;
+    align-items: center;
+}
+
+.header h2{
+    margin-bottom: -5px;
+}
+h2{
+color: #fff;
+}
+span{
+    color: #3877ff;
+}
+
+.skill-main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     grid: column gap 50px; ;
+    grid: row gap 20px;  
+}
+
+.skill-main .skill-bar .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.50px;
+    
+}
+
+
+
 .contact-form h2{
     text-align: center;
+    color:black;
     margin-top: 3em;
     margin-bottom: 1em;
     font-size: 36px;
